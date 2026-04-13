@@ -1,0 +1,61 @@
+{
+  "executed_at_utc": "2026-04-13T18:44:29+00:00",
+  "input_text": "Machine learning models learn patterns from data, but they still need careful evaluation because small transcription changes can affect meaning.",
+  "voices": [
+    "Kore",
+    "Charon"
+  ],
+  "tts_runs": [
+    {
+      "voice": "Kore",
+      "model": "gemini-2.5-flash-preview-tts",
+      "latency_seconds": 5.838894299929962,
+      "cost": 0.0021599999999999996,
+      "file_path": "C:\\Users\\AdminR\\Desktop\\year 3\\semester 2\\AIPSD\\Homewroks\\ai-powered-apps-giorgi-tkebuchava\\week02\\hw2\\audio-output\\voice_kore_sample.wav",
+      "file_size_kb": 409.306640625,
+      "mime_type": "audio/L16;codec=pcm;rate=24000",
+      "usage": {
+        "prompt_token_count": 23,
+        "candidates_token_count": 218,
+        "total_token_count": 241
+      }
+    },
+    {
+      "voice": "Charon",
+      "model": "gemini-2.5-flash-preview-tts",
+      "latency_seconds": 5.445741800125688,
+      "cost": 0.0021599999999999996,
+      "file_path": "C:\\Users\\AdminR\\Desktop\\year 3\\semester 2\\AIPSD\\Homewroks\\ai-powered-apps-giorgi-tkebuchava\\week02\\hw2\\audio-output\\voice_charon_sample.wav",
+      "file_size_kb": 383.056640625,
+      "mime_type": "audio/L16;codec=pcm;rate=24000",
+      "usage": {
+        "prompt_token_count": 23,
+        "candidates_token_count": 204,
+        "total_token_count": 227
+      }
+    }
+  ],
+  "stt_run": {
+    "model": "gemini-2.5-flash",
+    "latency_seconds": 2.5906982000451535,
+    "cost": 0.0008730958333333334,
+    "duration_seconds": 8.730958333333334,
+    "transcript_text": "Machine learning models learn patterns from data, but they still need careful evaluation because small transcription changes can affect meaning.",
+    "audio_path": "C:\\Users\\AdminR\\Desktop\\year 3\\semester 2\\AIPSD\\Homewroks\\ai-powered-apps-giorgi-tkebuchava\\week02\\hw2\\audio-output\\voice_kore_sample.wav",
+    "usage": {
+      "prompt_token_count": 297,
+      "candidates_token_count": 22,
+      "total_token_count": 340
+    }
+  },
+  "accuracy_percent": 100.0,
+  "summary": {
+    "tts_calls": 2,
+    "stt_calls": 1,
+    "tts_total_cost": 0.00432,
+    "stt_total_cost": 0.000873,
+    "pipeline_total_cost": 0.005193,
+    "tts_avg_latency_seconds": 5.6423,
+    "stt_avg_latency_seconds": 2.5907
+  }
+}
